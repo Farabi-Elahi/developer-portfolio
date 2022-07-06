@@ -11,7 +11,7 @@ h1 {
     color: orangered;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -35,4 +35,22 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+.exp-item {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    border-left: 7px solid blue;
+}
+
+#second-column {
+    border-left: 7px solid tomato;
 }
